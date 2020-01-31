@@ -5,7 +5,7 @@ export default class BigBreadcrumbs extends React.Component {
     super(props);
     this.state = {
       items: this.props.items || [],
-      icon: this.props.icon || "fa fa-fw fa-home"
+      icon: this.props.icon || "fa fa-fw fa-search"
     };
   }
 

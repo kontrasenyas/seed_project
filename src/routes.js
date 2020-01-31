@@ -12,22 +12,30 @@ import { routes as smartadminIntel } from "./views/smartadmin-intel";
 import { routes as tables } from "./views/tables";
 import { routes as ui } from "./views/ui";
 import { routes as widgets } from "./views/widgets";
+import { routes as search } from "./views/search";
+import { routes as about } from "./views/about";
+import { routes as contact } from "./views/contact";
+import { routes as faq } from "./views/faq";
 
 export const routes = [
   
-  ...appViews,
-  ...calendar,
-  ...dashboards,
-  ...eCommerce,
-  ...forms,
-  ...graphs,
-  ...maps,
-  ...misc,
-  ...outlook,
-  ...smartadminIntel,
-  ...tables,
-  ...ui,
-  ...widgets
+  // ...appViews,
+  // ...calendar,
+  //...dashboards,
+  // ...eCommerce,
+  //...forms,
+  // ...graphs,
+  //...maps,
+  //...misc,
+  // ...outlook,
+  // ...smartadminIntel,
+  // ...tables,
+  //...ui,
+  // ...widgets
+  ...search,
+  ...about,
+  ...contact,
+  ...faq
 ];
 
 export const authRoutes = [

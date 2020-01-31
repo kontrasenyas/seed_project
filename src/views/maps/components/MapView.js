@@ -6,7 +6,7 @@ import { withScriptjs, withGoogleMap, GoogleMap } from "react-google-maps";
 import { getJSON } from "../../../common/utils";
 
 // replace this with your GoogleMaps API key
-const API_KEY = `AIzaSyDd8YW8k_J-Jkti-W4QNk5dL8O_5_2QUWY`;
+const API_KEY = `AIzaSyDzyfD_ElWBuNLUp-wubjovyY9ySNQSA94`;
 
 const SmartMap = compose(
   withProps({
